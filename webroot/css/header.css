@@ -7,9 +7,10 @@
   src: local("Lato"),
        url('../fonts/Lato-Bold.woff2'),
        url('../fonts/Lato-Bold.woff');
+  font-weight: bold;
 }
 
 .main-header__heading {
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: 'Lato';
+  font-size: 30px;
 };
