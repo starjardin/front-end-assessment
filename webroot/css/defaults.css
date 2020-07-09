@@ -1,0 +1,7 @@
+:root {
+  --side-padding: calc((360px - 320px) / 2);
+}
+body {
+  padding-inline-start: var(--side-padding);
+  padding-inline-end: var(--side-padding);
+}
