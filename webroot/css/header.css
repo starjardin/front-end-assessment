@@ -13,4 +13,14 @@
 .main-header__heading {
   font-family: 'Lato';
   font-size: 30px;
+  text-align: center
 };
+
+
+/* Tablet or Desktop */
+
+@media (min-width: 480px) {
+  .site_logo__heading {
+    text-align: start;
+  }
+}
