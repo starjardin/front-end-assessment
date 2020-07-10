@@ -38,9 +38,13 @@ body {
   }
 
   body {
+    margin: auto;
+    max-width: 1403px;
+    text-align: center;
+    background-color: #F4F6F9;
     background-image: url('../img/bg_header-min-compressed.png');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 50%, 0%;
+    background-position: 546px bottom;
   }
 }
