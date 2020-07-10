@@ -16,6 +16,10 @@
   text-align: center
 };
 
+.site_logo__link--image {
+  max-width: 170px;
+  max-height: 70px;
+}
 
 /* Tablet or Desktop */
 
