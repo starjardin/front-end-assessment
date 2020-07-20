@@ -1,5 +1,6 @@
 /* importing files */
-@import "buttons.css";
-@import "header.css";
+@import "fonts.css";
 @import "defaults.css";
+@import "header.css";
+@import "buttons.css";
 @import "footer.css";
