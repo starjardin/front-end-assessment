@@ -32,7 +32,7 @@ ul {
   padding-block-end: 3rem;
 }
 
-picture {
+.phone_screen-shot {
   display: none;
 }
 
@@ -54,22 +54,21 @@ picture {
   .site_logo__heading {
     text-align: start;
   }
+}
 
-  body > header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  html {
-    position: relative;
-    z-index: 3;
-  }
-
-  picture {
+@media (min-width: 1020px) {
+  .phone_screen-shot {
     display: block;
     position: absolute;
-    top: -20%;
-    left: 50%;
-    z-index: 0;
+    top: -30%;
+    right: -7%;
+  }
+
+  body {
+    position: relative;
+    overflow: hidden;
+    padding-inline-start: 158px;
+    max-width: 1040px;
+    margin-right: 6rem;
   }
 };
