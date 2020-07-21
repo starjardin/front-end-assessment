@@ -7,18 +7,19 @@ body {
   padding-inline-end: var(--side-padding);
 }
 
-@font-face {
-  font-family: 'Lato';
-  src: local("Lato"),
-       url('../fonts/Lato-Regular.woff2'),
-       url('../fonts/Lato-Regular.woff');
-  font-weight: 400;
+a > span {
+  visibility: hidden;
 }
 
 .latest-info {
-  font-family: 'Lato';
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
   font-size: 16px;
   text-align: center;
+  font-weight: 400;
+}
+
+picture {
+  display: none;
 }
 
 /* Tablet or Desktop mode */
@@ -37,14 +38,11 @@ body {
     text-align: start;
   }
 
-  body {
-    margin: auto;
-    max-width: 1403px;
-    text-align: center;
-    background-color: #F4F6F9;
-    background-image: url('../img/bg_header-min-compressed.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 546px bottom;
+  picture {
+    display: block;
+    position: absolute;
+    top: -20%;
+    bottom: 0;
+    right: -10%;
   }
 }
