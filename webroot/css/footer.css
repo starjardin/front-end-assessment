@@ -6,7 +6,7 @@ footer {
 
 /* Tablet or desktop mode */
 
-@media (min-width: 480px) {
+@media (min-width: 360px) {
   footer {
     justify-content: flex-start;
   }
