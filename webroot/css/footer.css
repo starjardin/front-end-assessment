@@ -1,4 +1,4 @@
-.footer-button {
+footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -7,12 +7,7 @@
 /* Tablet or desktop mode */
 
 @media (min-width: 480px) {
-  .footer-button {
+  footer {
     justify-content: flex-start;
-  }
-
-  .button-downlaod__google-play {
-    display: block;
-    margin-inline-start: 2rem;
   }
 }
