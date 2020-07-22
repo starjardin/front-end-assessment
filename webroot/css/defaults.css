@@ -32,10 +32,6 @@ ul {
   padding-block-end: 3rem;
 }
 
-.phone_screen-shot {
-  display: none;
-}
-
 .latest-info {
   max-width: 453px;
   text-align: start;
@@ -57,18 +53,14 @@ ul {
 }
 
 @media (min-width: 1020px) {
-  .phone_screen-shot {
-    display: block;
-    position: absolute;
-    top: -30%;
-    right: -7%;
+  html {
+    margin: auto;
+    overflow: hidden;
   }
 
   body {
-    position: relative;
-    overflow: hidden;
-    padding-inline-start: 158px;
-    max-width: 1040px;
-    margin-right: 6rem;
-  }
+    background-image: url('../img/bg_header.png');
+    background-repeat: no-repeat;
+    background-position: 532px 80%;
+  };
 };
