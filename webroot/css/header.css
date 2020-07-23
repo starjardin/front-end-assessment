@@ -10,11 +10,3 @@
   font-weight: 700;
   padding-block-end: 2rem;
 };
-
-/* Tablet or Desktop */
-
-@media (min-width: 360px) {
-  .site_logo__heading {
-    text-align: start;
-  }
-}
