@@ -1,0 +1,19 @@
+{
+  "name": "front-end-assessment",
+  "version": "1.0.0",
+  "description": "A mockup-to-website example to be used as an assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starjardin/front-end-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/starjardin/front-end-assessment/issues"
+  },
+  "homepage": "https://github.com/starjardin/front-end-assessment#readme"
+}
