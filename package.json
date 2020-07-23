@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A mockup-to-website example to be used as an assessment",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/starjardin/front-end-assessment.git"
@@ -18,5 +15,10 @@
   "homepage": "https://github.com/starjardin/front-end-assessment#readme",
   "devDependencies": {
     "node-sass": "^4.14.1"
+  },
+
+  "scripts": {
+    "css" : "node-sass scss -o webroot/css",
+    // "css:watch": "npm run css && node-sass scss -w -o webroot/css"
   }
 }
