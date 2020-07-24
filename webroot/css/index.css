@@ -1,13 +1,13 @@
 /* importing files */
 @font-face {
-  font-family: 'Lato';
+  font-family: Lato;
   font-weight: 700;
-  src: url("../fonts/Lato-Bold.woff2") format(woff2), url("../fonts/Lato-Bold.woff") format(woff); }
+  src: url(../fonts/Lato-Bold.woff2) format(woff2), url(../fonts/Lato-Bold.woff) format(woff); }
 
 @font-face {
   font-family: 'Lato';
   font-weight: 400;
-  src: url("../fonts/Lato-Regular.woff2") format(woff2), url("../fonts/Lato-Regular.woff") format(woff); }
+  src: url(../fonts/Lato-Regular.woff2) format(woff2), url(../fonts/Lato-Regular.woff) format(woff); }
 
 .site_logo__heading {
   text-align: center;
