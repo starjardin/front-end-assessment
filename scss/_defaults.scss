@@ -1,14 +1,16 @@
+@import "variables";
+
 :root {
   --side-padding: calc((360px - 320px) / 2);
 }
 body {
-  background-color: #F4F6F9;
+  background-color: $base_background-color;
   margin: auto;
   text-align: center;
 }
 
 li {
-  list-style: none;
+  list-style: $list-style;
   margin: 0;
 }
 
@@ -24,9 +26,9 @@ li {
 
 .latest-info {
   font-family: 'Lato', Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: $paragraph_font-size;
   text-align: center;
-  font-weight: 400;
+  font-weight: $paragraph_font-weight;
   padding-block-end: 3rem;
 }
 
@@ -36,7 +38,7 @@ li {
 }
 
 .main-header__heading {
-  max-width: 532px;
+  max-width: $main_header;
   text-align: center;
 }
 
@@ -57,12 +59,12 @@ li {
   }
 
   .main-header__heading {
-    max-width: 532px;
+    max-width: $main_header;
     text-align: start;
   }
 
   .wrapper {
-    max-width: 550px;
+    max-width: $header_content;
   }
 
   .container {
@@ -74,7 +76,7 @@ li {
   header {
     background-image: url('../img/bg_header.png');
     background-repeat: no-repeat;
-    background-position: calc(50vw - 11px) 270%;
+    background-position: $header-background-position;
     padding-block-start: 1rem;
     padding-block-end: 10rem;
   }
