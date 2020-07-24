@@ -1,0 +1,10 @@
+$subheading_color: 333333;
+$subheading_font-size: 28px;
+$subheading_font-weight: 700;
+$paragraph_font-weight: 400;
+$base_font-family: "Lato";
+$paragraph-color:4f4f4f;
+$woff2-bold-url: "../fonts/Lato-Bold.woff2";
+$woff2-regular-url: "../fonts/Lato-Regular.woff2";
+$woff-bold-url: "../fonts/Lato-Bold.woff";
+$woff-regular-url: "../fonts/Lato-Regular.woff";
