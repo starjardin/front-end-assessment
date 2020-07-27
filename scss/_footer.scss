@@ -1,12 +1,13 @@
+@import "variables";
+
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: $center_value;
+  margin: $center_margin;
 }
 
-/* Tablet or desktop mode */
-
-@media (min-width: 360px) {
+@media (min-width: $max_width_faux_column) {
   footer {
     justify-content: flex-start;
   }
