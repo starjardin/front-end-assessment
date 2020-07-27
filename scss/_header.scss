@@ -1,12 +1,16 @@
+@import "variables";
+
 .site_logo__heading {
   text-align: center;
   padding-block-end: 4rem;
 }
 
 .main-header__heading {
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-family: '$base_font-family', $font_fall_back;
   font-size: 30px;
   text-align: center;
-  font-weight: 700;
+  font-weight: $subheading_font-weight;
   padding-block-end: 2rem;
+  color: $subheading_color;
+  margin: $center_margin;
 };
