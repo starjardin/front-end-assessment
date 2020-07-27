@@ -1,11 +1,17 @@
 @import "width";
+@import "mixin";
 
-$subheading_color: 333333;
+$subheading_color: #333333;
+$center_margin: auto;
+$center_value: center;
+$justify_content_center: center;
+$justify_content_start: start;
 $subheading_font-size: 28px;
 $paragraph_font-size: 16px;
 $subheading_font-weight: 700;
 $paragraph_font-weight: 400;
 $base_font-family: "Lato";
+$font_fall_back: Arial, Helvetica, sans-serif;
 $paragraph-color: #4f4f4f;
 $woff2-bold-url: "../fonts/Lato-Bold.woff2";
 $woff2-regular-url: "../fonts/Lato-Regular.woff2";
@@ -13,4 +19,4 @@ $woff-bold-url: "../fonts/Lato-Bold.woff";
 $woff-regular-url: "../fonts/Lato-Regular.woff";
 $list-style: none;
 $base_background-color: #F4F6F9;
-$header-background-position: calc(50vw - 11px) 270%;
+$header-background-position: calc(50vw - 11px) 200%;
