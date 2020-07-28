@@ -12,16 +12,6 @@ li {
   @include reset-list;
 }
 
-.apps-list {
-  max-width: 360px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
-}
-
 .latest-info {
   font-family: '$base_font-family', $font_fall_back;
   font-size: $paragraph_font-size;
@@ -37,6 +27,7 @@ li {
   max-width: 453px;
   display: flex;
   justify-content: $justify_content_center;
+  padding-block-end: 5rem;
 }
 
 .main-header__heading {
@@ -47,12 +38,12 @@ li {
 
 
 @media (min-width: $max_width_faux_column) {
-
   .site_logo__heading,
   .latest-info,
   .main-header__heading {
-    display: flex;
-    justify-content: $justify_content_start;
+    margin-right: auto;
+    margin-left: 0;
+    text-align: $justify_content_start;
   }
   .latest-info {
     max-width: 453px;
@@ -72,11 +63,12 @@ li {
     max-height: 100%;
   }
 
-  header {
+  .site_logo {
     background-image: url('../img/bg_header.png');
     background-repeat: no-repeat;
     background-position: $header-background-position;
     padding-block-start: 1rem;
     padding-block-end: 10rem;
+    background-size: contain;
   }
 };
