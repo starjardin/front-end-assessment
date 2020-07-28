@@ -14,3 +14,20 @@
   color: $subheading_color;
   margin: $center_margin;
 };
+
+.site_logo__link--image {
+  width: 160px;
+  height: 80px;
+}
+
+
+@media (min-width:$max_width_faux_column) {
+  .site_logo__heading {
+    padding-block-end: 10rem;
+  }
+
+  .site_logo__link--image {
+    width: 100px;
+    height: 50px;
+  }
+}
