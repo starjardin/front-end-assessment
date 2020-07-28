@@ -13,11 +13,11 @@ li {
 }
 
 .latest-info {
-  font-family: '$base_font-family', $font_fall_back;
+  font-family: 'Lato';
   font-size: $paragraph_font-size;
   display: flex;
   justify-content: $justify_content_center;
-  font-weight: $paragraph_font-weight;
+  font-weight: 400;
   padding-block-end: 3rem;
   color: $paragraph-color;
   margin: $center_margin;
@@ -69,6 +69,5 @@ li {
     background-position: $header-background-position;
     padding-block-start: 1rem;
     padding-block-end: 10rem;
-    background-size: contain;
   }
 };
