@@ -1,17 +1,17 @@
 @import "variables";
 
 @font-face {
-  font-family: #{$base_font-family};
-  font-weight: #{$subheading_font-weight};
-  src: /*local('Lato-Bold'),*/
-       url(#{$woff2-bold-url}) format(woff2),
-       url(#{$woff-bold-url}) format(woff),
+  font-family: "Lato";
+  font-weight: 700;
+  src: local('Lato-Bold'), local('Lato Bold'),
+       url(../webroot/fonts/Lato-Bold.woff) format(woff),
+       url(../webroot/fonts/Lato-Bold.woff2) format(woff2);
 }
 
 @font-face {
-  font-family: 'Lato';
-  font-weight: $paragraph_font-weight;
-  src: /*local('Lato-Regular'),*/
-       url(#{$woff2-regular-url}) format(woff2),
-       url(#{$woff-regular-url}) format(woff);
+  font-family: "Lato";
+  font-weight: 400;
+  src: local('Lato-Bold'), local('Lato Bold'),
+       url(../webroot/fonts/Lato-Regular.woff) format(woff),
+       url(../webroot/fonts/Lato-Regular.woff2) format(woff2);
 }
