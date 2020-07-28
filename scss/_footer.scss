@@ -7,6 +7,20 @@ footer {
   margin: $center_margin;
 }
 
+.apps-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.apps-list > li {
+  padding-right: 1rem;
+}
+
+
+
 @media (min-width: $max_width_faux_column) {
   footer {
     justify-content: flex-start;
