@@ -1,20 +1,20 @@
 /* importing files */
 @font-face {
-  font-family: Lato;
+  font-family: "Lato";
   font-weight: 700;
-  src: url(../fonts/Lato-Bold.woff2) format(woff2), url(../fonts/Lato-Bold.woff) format(woff); }
+  src: local("Lato-Bold"), local("Lato Bold"), url(../webroot/fonts/Lato-Bold.woff) format(woff), url(../webroot/fonts/Lato-Bold.woff2) format(woff2); }
 
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-weight: 400;
-  src: url(../fonts/Lato-Regular.woff2) format(woff2), url(../fonts/Lato-Regular.woff) format(woff); }
+  src: local("Lato-Bold"), local("Lato Bold"), url(../webroot/fonts/Lato-Regular.woff) format(woff), url(../webroot/fonts/Lato-Regular.woff2) format(woff2); }
 
 .site_logo__heading {
   text-align: center;
   padding-block-end: 4rem; }
 
 .main-header__heading {
-  font-family: "$base_font-family", Arial, Helvetica, sans-serif;
+  font-family: 'Lato';
   font-size: 30px;
   text-align: center;
   font-weight: 700;
@@ -46,7 +46,7 @@ li {
   list-style: none; }
 
 .latest-info {
-  font-family: "$base_font-family", Arial, Helvetica, sans-serif;
+  font-family: 'Lato';
   font-size: 16px;
   display: flex;
   justify-content: center;
@@ -86,10 +86,9 @@ li {
   .site_logo {
     background-image: url("../img/bg_header.png");
     background-repeat: no-repeat;
-    background-position: calc(50vw - 11px) 270%;
+    background-position: calc(50vw - 11px) -200%;
     padding-block-start: 1rem;
-    padding-block-end: 10rem;
-    background-size: contain; } }
+    padding-block-end: 10rem; } }
 
 footer {
   display: flex;
