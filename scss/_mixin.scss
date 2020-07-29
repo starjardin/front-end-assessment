@@ -7,3 +7,12 @@
 @mixin reset-ul {
   padding: 0;
 }
+
+@mixin footer-anchor {
+  text-decoration: none;
+}
+
+@mixin  footer-ul {
+  display: flex;
+  flex-direction: row;
+}
