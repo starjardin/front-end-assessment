@@ -6,6 +6,7 @@
 body {
   background-color: $base_background-color;
   margin: auto;
+  font-family: 'Lato';
 }
 
 li {
@@ -13,7 +14,6 @@ li {
 }
 
 .latest-info {
-  font-family: 'Lato';
   font-size: $paragraph_font-size;
   display: flex;
   justify-content: $justify_content_center;
