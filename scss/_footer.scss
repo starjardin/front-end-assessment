@@ -21,8 +21,7 @@
 
 .main-footer {
   background-color: #00ADEE;
-  padding-block-end: 3rem;
-  padding-block-start: 4rem;
+  height: 210px;
   padding-inline-start: 1rem;
   padding-inline-end: 1rem;
 }
@@ -78,6 +77,31 @@ a[href="/gallery"] {
   }
 
   .main-footer {
+    height: 117px;
     @include footer-ul;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: $max_width_faux_column;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .main-footer nav {
+    display: flex;
+    flex-direction: row-reverse;
+    width: ($max_width_faux_column / 3) * 2;
+    justify-content: space-between;
+  }
+
+  .navigation_list__container {
+    width: 375px;
+    justify-content: space-between;
+  }
+
+  .main-footer h2 {
+    margin: 0;
   }
 }
