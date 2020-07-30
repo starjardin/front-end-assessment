@@ -90,6 +90,75 @@ li {
     padding-block-start: 1rem;
     padding-block-end: 10rem; } }
 
+.article-feature__paragraph + .article-feature__paragraph {
+  padding-block-end: 3rem; }
+
+.article-featured_sports__heading {
+  display: flex;
+  justify-content: center;
+  padding-block-end: 3rem;
+  font-size: 28px;
+  font-weight: 700; }
+
+.featured_sports__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "sportTv sportTv sport " " nbcNews technology designerNews" "sportSky sportSky sportSky"; }
+
+.featured_sports__list-item.sport-tv {
+  grid-area: sportTv; }
+
+.featured_sports__list-item.sport {
+  grid-area: sport; }
+
+.featured_sports__list-item.nbc-news {
+  grid-area: nbcNews; }
+
+.featured_sports__list-item.technology {
+  grid-area: technology; }
+
+.featured_sports__list-item.designer-news {
+  grid-area: designerNews; }
+
+.featured_sports__list-item.sport-sky {
+  grid-area: sportSky; }
+
+.featured_sports__list-item--link {
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  width: 100%;
+  height: 3rem;
+  padding-block-end: 1rem; }
+
+.featured_sports__list-item--link.sport-tv {
+  background-image: url(../img/logo_sports_tv.svg);
+  z-index: 5; }
+
+.featured_sports__list-item--link.sport {
+  background-image: url(../img/logo_sports_channel.svg); }
+
+.featured_sports__list-item--link.nbc-news {
+  background-image: url(../img/logo_nbc_sports.svg); }
+
+.featured_sports__list-item--link.technology {
+  background-image: url(../img/logo_designer_technology.svg); }
+
+.featured_sports__list-item--link.designer-news {
+  background-image: url(../img/logo_designer_news.svg); }
+
+.featured_sports__list-item--link.sport-sky {
+  background-image: url(../img/logo_sky_sports.svg); }
+
+.featured_sports__list-item span {
+  display: none; }
+
+@media (min-width: 1114px) {
+  .featured_sports__list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "sportTv sport nbcNews technology designerNews sportSky"; } }
+
 .footer_header {
   display: flex;
   flex-direction: row;
