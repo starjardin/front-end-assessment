@@ -28,12 +28,11 @@
 .article--interface {
   text-align: center;
   margin: auto;
-  max-width: $max_width_faux_column;
   padding-block-end: 565px;
   background-image: url(../img/bg_friendly_user_interface.png);
   background-position-x: 50%;
-  background-position-y: 0%;
-  background-size: 1137px;
+  background-position-y: 35%;
+  background-size: 1737px;
 }
 
 @media (min-width: $max_width_faux_column) {
@@ -47,13 +46,14 @@
 
   .article--interface {
     text-align: start;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
     margin: auto;
-    background-size: 2637px;
     padding-block-end: 565px;
-    background-size: 1137px;
-    background-position-x: calc((1114px - 480px) / 2);
+    background-size: 1737px;
+    background-position-x: calc((50vw - (1114px / 2) - 480px) + (1114px /2));
     background-position-y: 50%;
-    padding-block-start: 4rem;
-    padding-block-end: 4rem;
+    padding-block-start: 232px;
+    padding-block-end: 189px;
   }
 }
