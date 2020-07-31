@@ -10,17 +10,53 @@
   font-weight: 700;
 }
 
+.featured_sports__list-item--link {
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 3rem;
+  padding-block-end: 1rem;
+}
+
+.featured_sports__list-item--link.sport-tv {
+  background-image: url(../img/logo_sports_tv.svg);
+  z-index: 5;
+}
+
+.featured_sports__list-item--link.sport {
+  background-image: url(../img/logo_sports_channel.svg);
+}
+
+.featured_sports__list-item--link.nbc-news {
+  background-image: url(../img/logo_nbc_sports.svg);
+}
+
+.featured_sports__list-item--link.technology {
+  background-image: url(../img/logo_designer_technology.svg);
+}
+
+.featured_sports__list-item--link.designer-news {
+  background-image: url(../img/logo_designer_news.svg);
+}
+
+.featured_sports__list-item--link.sport-sky {
+  background-image: url(../img/logo_sky_sports.svg);
+}
+
+.featured_sports__list-item span {
+  visibility: hidden;
+}
+
 .featured_sports__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
-   "sportTv sportTv sport "
-   " nbcNews technology designerNews"
-   "sportSky sportSky sportSky";
+    "sportTv sportTv sport"
+    "nbcNews technology designNews"
+    "sportSky sportSky sportSky";
+    padding: 0;
 }
 
-
-// Here is the featured part
 .featured_sports__list-item.sport-tv {
   grid-area: sportTv;
 }
@@ -35,52 +71,21 @@
   grid-area: technology;
 }
 .featured_sports__list-item.designer-news {
-  grid-area: designerNews;
+  grid-area: designNews;
 }
 
 .featured_sports__list-item.sport-sky {
   grid-area: sportSky;
 }
 
-.featured_sports__list-item--link {
-  background-position: center center;
-  background-repeat: no-repeat;
-  display: block;
-  width: 100%;
-  height: 3rem;
-  padding-block-end: 1rem;
-}
-
-.featured_sports__list-item--link.sport-tv {
-  background-image: url(../img/logo_sports_tv.svg);
-  z-index: 5;
-}
-.featured_sports__list-item--link.sport {
-  background-image: url(../img/logo_sports_channel.svg);
-}
-.featured_sports__list-item--link.nbc-news {
-  background-image: url(../img/logo_nbc_sports.svg);
-}
-.featured_sports__list-item--link.technology {
-  background-image: url(../img/logo_designer_technology.svg);
-}
-.featured_sports__list-item--link.designer-news {
-  background-image: url(../img/logo_designer_news.svg);
-}
-.featured_sports__list-item--link.sport-sky {
-  background-image: url(../img/logo_sky_sports.svg);
-}
-
-.featured_sports__list-item span {
-  display: none;
-}
-
 
 @media (min-width: $max_width_faux_column) {
   .featured_sports__list {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas:
-    "sportTv sport nbcNews technology designerNews sportSky";
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .featured_sports__list-item {
+    width: 100%;
   }
 }
