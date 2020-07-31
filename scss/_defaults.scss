@@ -9,6 +9,11 @@ body {
   font-family: 'Lato';
 }
 
+.container {
+  max-width: $max_width_faux_column;
+  margin: auto;
+}
+
 li {
   @include reset-list;
 }
