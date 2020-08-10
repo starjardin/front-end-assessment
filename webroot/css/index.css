@@ -168,7 +168,8 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 60px; }
 
 .apps-list {
   display: flex;
