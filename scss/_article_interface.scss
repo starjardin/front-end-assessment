@@ -6,6 +6,7 @@
   color: $colored_sky_blue;
   text-transform: uppercase;
   font-size: 16px;
+  padding-top: 60px;
 }
 
 .article--interface__heading {
@@ -27,6 +28,7 @@
 
 .article--interface {
   text-align: center;
+  background-color: #ffffff;
   margin: auto;
   padding-block-end: 565px;
   background-image: url(../img/bg_friendly_user_interface.png);
@@ -46,7 +48,6 @@
 
   .article--interface {
     text-align: start;
-    background-color: #ffffff;
     background-repeat: no-repeat;
     margin: auto;
     padding-block-end: 565px;

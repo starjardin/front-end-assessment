@@ -259,7 +259,8 @@ img {
   display: block;
   color: #00ADEE;
   text-transform: uppercase;
-  font-size: 16px; }
+  font-size: 16px;
+  padding-top: 60px; }
 
 .article--interface__heading {
   color: #333333;
@@ -277,6 +278,7 @@ img {
 
 .article--interface {
   text-align: center;
+  background-color: #ffffff;
   margin: auto;
   padding-block-end: 565px;
   background-image: url(../img/bg_friendly_user_interface.png);
@@ -291,7 +293,6 @@ img {
     text-align: start; }
   .article--interface {
     text-align: start;
-    background-color: #ffffff;
     background-repeat: no-repeat;
     margin: auto;
     padding-block-end: 565px;
