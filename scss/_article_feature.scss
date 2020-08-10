@@ -4,6 +4,11 @@
   text-align: center;
 }
 
+.article-feature__heading {
+  margin: 0;
+  padding-bottom: 60px;
+}
+
 .article-feature__list {
   @include reset-ul;
 }
@@ -16,8 +21,13 @@
   .article-feature {
     background-color: $colored_sky_blue;
     color: white;
-    padding-block-start: 4rem;
-    padding-block-end: 4rem;
+    padding-block-start: 77px;
+    padding-block-end: 70px;
+  }
+
+  .article-feature__list-item p {
+    @include list-style-disc;
+    display: list-item;
   }
 
   .article-feature svg {
