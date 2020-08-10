@@ -14,68 +14,73 @@
   background-position: center center;
   background-repeat: no-repeat;
   display: block;
-  height: 3rem;
   padding-block-end: 1rem;
+}
+
+.featured_sports__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  place-items: center center;
+  align-items: center;
 }
 
 .featured_sports__list-item--link.sport-tv {
   background-image: url(../img/logo_sports_tv.svg);
-  z-index: 5;
+  min-height: 78px;
+
 }
 
 .featured_sports__list-item--link.sport {
   background-image: url(../img/logo_sports_channel.svg);
+  min-height: 78px;
 }
 
 .featured_sports__list-item--link.nbc-news {
   background-image: url(../img/logo_nbc_sports.svg);
+  min-height: 78px;
 }
 
 .featured_sports__list-item--link.technology {
   background-image: url(../img/logo_designer_technology.svg);
+  min-height: 78px;
 }
 
 .featured_sports__list-item--link.designer-news {
   background-image: url(../img/logo_designer_news.svg);
+  min-height: 78px;
 }
 
 .featured_sports__list-item--link.sport-sky {
   background-image: url(../img/logo_sky_sports.svg);
+  min-height: 78px;
 }
 
 .featured_sports__list-item span {
   visibility: hidden;
 }
 
-.featured_sports__list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas:
-    "sportTv sportTv sport"
-    "nbcNews technology designNews"
-    "sportSky sportSky sportSky";
-    padding: 0;
+.sport-tv {
+  flex-basis: 50%;
 }
 
-.featured_sports__list-item.sport-tv {
-  grid-area: sportTv;
+.sport  {
+  flex-basis: 50%;
+}
+.nbc-news {
+  flex-basis: 34%;
+}
+.technology {
+  flex-basis: 33%;
+}
+.designer-news {
+  flex-basis: 33%;
 }
 
-.featured_sports__list-item.sport  {
-  grid-area: sport;
-}
-.featured_sports__list-item.nbc-news {
-  grid-area: nbcNews;
-}
-.featured_sports__list-item.technology {
-  grid-area: technology;
-}
-.featured_sports__list-item.designer-news {
-  grid-area: designNews;
-}
-
-.featured_sports__list-item.sport-sky {
-  grid-area: sportSky;
+.sport-sky {
+  flex-basis: 100%;
 }
 
 
@@ -83,9 +88,6 @@
   .featured_sports__list {
     display: flex;
     justify-content: space-between;
-  }
-
-  .featured_sports__list-item {
-    width: 100%;
+    flex-wrap: nowrap;
   }
 }
