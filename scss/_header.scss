@@ -2,7 +2,11 @@
 
 .site_logo__heading {
   text-align: center;
-  padding-block-end: 4rem;
+  padding-bottom: 60px;
+}
+
+.wrapper {
+  padding-bottom: 60px;
 }
 
 .main-header__heading {
@@ -22,7 +26,7 @@
 
 
 @media (min-width:$max_width_faux_column) {
-  .site_logo__heading {
+  .site_logo {
     padding-block-end: 162px;
   }
 
