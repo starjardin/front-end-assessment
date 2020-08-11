@@ -234,6 +234,8 @@ a[href="/gallery"] {
 @media (min-width: 1114px) {
   footer {
     justify-content: flex-start; }
+  .footer_header {
+    justify-content: flex-start; }
   .main-footer {
     height: 117px;
     display: flex;
@@ -339,15 +341,17 @@ img {
     padding-inline-end: 0.5rem;
     font-weight: 900;
     font-size: x-large; }
+  .article-feature__list-item {
+    padding-bottom: 0px; }
   .article-feature svg {
     fill: currentColor;
     display: block; }
   .article-feature__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 3rem;
-    column-gap: 3rem;
-    grid-row-gap: 3rem;
-    row-gap: 3rem; }
+    grid-column-gap: 52px;
+    column-gap: 52px;
+    grid-row-gap: 40px;
+    row-gap: 40px; }
   .article-feature__list-item {
     text-align: start; } }
