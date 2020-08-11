@@ -14,75 +14,66 @@
   background-position: center center;
   background-repeat: no-repeat;
   display: block;
-  padding-block-end: 1rem;
+  min-height: 78px;
 }
 
 .featured_sports__list {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0;
-  place-items: center center;
-  align-items: center;
+  flex-direction: row;
 }
 
-.featured_sports__list-item--link.sport-tv {
-  background-image: url(../img/logo_sports_tv.svg);
-  min-height: 78px;
+.featured_sports__list-item.sport_tv {
+  flex-basis: 50%;
+}
 
+.featured_sports__list-item.sport {
+  flex-basis: 50%;
+}
+
+.featured_sports__list-item.nbc-news {
+  flex-basis: 33%;
+}
+
+.featured_sports__list-item.technology {
+  flex-basis: 33%;
+}
+
+.featured_sports__list-item.designer-news {
+  flex-basis: 33%;
+}
+
+.featured_sports__list-item.sport-sky {
+  flex-basis: 100%;
+}
+
+.featured_sports__list-item--link.sport_tv {
+  background-image: url(../img/logo_sports_tv.svg);
 }
 
 .featured_sports__list-item--link.sport {
   background-image: url(../img/logo_sports_channel.svg);
-  min-height: 78px;
 }
 
 .featured_sports__list-item--link.nbc-news {
   background-image: url(../img/logo_nbc_sports.svg);
-  min-height: 78px;
 }
 
 .featured_sports__list-item--link.technology {
   background-image: url(../img/logo_designer_technology.svg);
-  min-height: 78px;
 }
 
 .featured_sports__list-item--link.designer-news {
   background-image: url(../img/logo_designer_news.svg);
-  min-height: 78px;
 }
 
 .featured_sports__list-item--link.sport-sky {
   background-image: url(../img/logo_sky_sports.svg);
-  min-height: 78px;
 }
 
 .featured_sports__list-item span {
   visibility: hidden;
 }
-
-.sport-tv {
-  flex-basis: 50%;
-}
-
-.sport  {
-  flex-basis: 50%;
-}
-.nbc-news {
-  flex-basis: 34%;
-}
-.technology {
-  flex-basis: 33%;
-}
-.designer-news {
-  flex-basis: 33%;
-}
-
-.sport-sky {
-  flex-basis: 100%;
-}
-
 
 @media (min-width: $max_width_faux_column) {
   .featured_sports__list {
