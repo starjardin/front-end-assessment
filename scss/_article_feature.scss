@@ -30,9 +30,12 @@
     padding-block-end: 70px;
   }
 
-  .article-feature__list-item p {
-    @include list-style-disc;
-    display: list-item;
+  .article-feature__list-item p::before {
+    content: ".";
+    display: inline-block;
+    padding-inline-end: 0.5rem;
+    font-weight: 900;
+    font-size: x-large;
   }
 
   .article-feature svg {
