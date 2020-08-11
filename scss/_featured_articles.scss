@@ -2,12 +2,18 @@
   padding-block-end: 3rem;
 }
 
+.article-featured_sports {
+  padding-bottom: 64px;
+}
+
 .article-featured_sports__heading {
   display: flex;
   justify-content: center;
-  padding-block-end: 3rem;
   font-size: 28px;
   font-weight: 700;
+  margin: 0;
+  padding-top: 54px;
+  padding-block-end: 42px;
 }
 
 .featured_sports__list-item--link {
@@ -21,6 +27,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  padding: 0;
 }
 
 .featured_sports__list-item.sport_tv {
@@ -80,5 +87,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
+  }
+
+  .featured_sports__list-item {
+    flex-basis: auto;
   }
 }
